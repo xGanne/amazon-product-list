@@ -1,4 +1,4 @@
-# Amazon Product Scraper
+# Amazon Product List
 
 ## Objective
 This project is a web application that allows users to scrape product information directly from Amazon's Brazilian marketplace. With a simple interface, users can search for products and instantly retrieve key details such as title, rating, review count, and product image.
