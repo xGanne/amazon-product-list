@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Product List</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Amazon Product List</h1>
+        <div class="search-container">
+            <input 
+                type="text" 
+                id="keywordInput" 
+                placeholder="Enter search keyword"
+            >
+            <button id="scrapeButton">Search Products</button>
+        </div>
+        <div id="loader" class="loader hidden">Loading...</div>
+        <div id="resultsContainer" class="results-grid"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
